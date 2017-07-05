@@ -1,0 +1,334 @@
+@charset="utf-8";
+
+/*inicio layout base*/
+
+body {
+    padding-top: 50px;
+    background-color: #f8f8ff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    /*    color: #fff;*/
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: .1em;
+}
+
+header {
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-weight: 400;
+    font-size: 2.5em;
+    font-weight: 500;
+    letter-spacing: .5em;
+    color: #e77b19;
+    display: block;
+    padding-top: 6em;
+    text-shadow: 1px 1px white;
+}
+
+h2 {
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: .2em;
+    font-weight: 300;
+    font-size: 2em;
+    color: #009442;
+    /*    color: #101010;*/
+    text-transform: uppercase;
+    text-shadow: 1px 1px #101010;
+}
+
+h3 {
+    font-weight: 200;
+    line-height: 1.4em;
+    letter-spacing: .1em;
+    /*    text-shadow: 1px 1px white;*/
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.link-invisivel {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+
+/*fim layout base*/
+
+
+/*inicio home*/
+
+#home {
+    background: url(../imagens/header.jpg) no-repeat center fixed;
+    display: inline-block;
+    height: 45em;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#home p {
+    color: gray;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+.img-header {
+    padding-top: 10em;
+}
+
+.home-tel {
+    color: #e77b19;
+    font-size: 1.3em;
+    text-shadow: 1px .1px #101010;
+}
+
+.home-end {
+    color: #009442;
+    font-size: 1.2em;
+    text-shadow: 1px .1px #101010;
+}
+
+.home-email {
+    color: #f8f8ff;
+    font-size: 1em;
+    text-shadow: 1px .1px #DEDEDE;
+}
+
+
+/*fim home*/
+
+
+/*inicio empresa*/
+
+#empresa {
+    padding-bottom: 10px;
+}
+
+#empresa h2 {}
+
+#empresa h3 {}
+
+#empresa p {
+    line-height: 1.4em;
+    /*    padding-left: 1em;*/
+}
+
+
+/*fim empresa */
+
+
+/*inicio produtos*/
+
+#produtos {
+    background: url(../imagens/mesa.jpg) no-repeat center fixed;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#produtos ul {
+    line-height: 1.5em;
+    list-style: none;
+    text-align: left;
+}
+
+#produtos .glyphicon {
+    color: limegreen;
+}
+
+#produtos h3 {
+    text-align: center;
+    color: #272726;
+    font-weight: 200;
+    font-size: 1.4em;
+    padding-bottom: .1em;
+    text-transform: uppercase;
+}
+
+.thumb-style {
+    background-color: #f8f8ff;
+    opacity: 0.85;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    height: 25em;
+    /*    border-radius: 2px;*/
+}
+
+.prod-img {
+    height: 10em;
+}
+
+#produtos hr {
+    color: gray;
+    /*    border-color: #9f9d9d;*/
+    /*    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);*/
+}
+
+#produtos span {
+    letter-spacing: .1em;
+    line-height: 1.2em;
+}
+
+
+/*fim produtos */
+
+
+/*inicio galeria*/
+
+#galeria {
+    /*    background-color: #e77b19;*/
+    padding-bottom: 3em;
+}
+
+.imagem-galeria {
+    box-shadow: 0 0 2px rgba(229, 214, 214, 0.5);
+    border-radius: 2px;
+}
+
+.imagem-galeria:hover {}
+
+
+/*
+.owl-nav {
+    text-align: center;
+    display: inline;
+}
+*/
+
+
+/*fim galeria*/
+
+
+/* incio fabrica*/
+
+fabrica {
+    background: url(../imagens/bloco-de-concreto1.jpg) no-repeat center fixed;
+    display: inline-block;
+    height: 40em;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+
+/* fim fabrica*/
+
+
+/*inico mao de obra*/
+
+#mao {
+    /*    background: url(../imagens/bg.png);*/
+    /*    background-color: rgba(255, 108, 0, 0.4);*/
+    height: auto;
+    width: 100%;
+}
+
+#mao th {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#mao td {
+    font-weight: 200
+}
+
+
+/*fim mao de obra*/
+
+
+/*inicio contato*/
+
+.mapa {
+    /*
+    padding-left: 10em;
+ padding-top: 5em;
+*/
+}
+
+iframe {
+    /*
+        width: auto;
+height: auto;
+*/
+    /*    height: 20.000em;*/
+    /*    width: 30.000em;*/
+    /*
+    width: 600px;
+height: 450px;
+*/
+}
+
+
+/*fim contato*/
+
+
+/*inicio parceiros*/
+
+#parceiros {
+    padding-bottom: 2em;
+}
+
+.parceiros-img:hover {
+    opacity: 0.85;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.parceiros {
+    padding-bottom: 2em;
+}
+
+
+/*fim parceiros*/
+
+
+/*footer inicio */
+
+footer {
+    clear: both;
+    background-color: black;
+}
+
+footer h3 {
+    text-align: left;
+    color: #e77b19;
+    /*    text-shadow: 1px 1px #DEDEDE;*/
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.4em;
+    text-align: left;
+    /*    color: #f8f8ff;*/
+    color: #DEDEDE;
+}
+
+footer hr {
+    color: gray;
+    border-color: #363535;
+}
+
+footer span {
+    /*    color: #f8f8ff;*/
+    color: #DEDEDE;
+}
+
+.topo .glyphicon {
+    color: #DEDEDE;
+    font-size: 3em;
+}
+
+footer .topo .glyphicon:hover {
+    color: rgba(255, 255, 255, 0.17);
+}
+
+
+/*footer fim*/
